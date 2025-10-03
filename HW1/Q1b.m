@@ -16,5 +16,6 @@ xlabel('Months in Number Form')
 ylabel('Temperature (F)')
 months = {'Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'};
 xticklabels(months)
+title('Months vs Temp (F) Box Plot')
 
 cd('C:\Users\tigrr\UCSD\MAE108\HW1')

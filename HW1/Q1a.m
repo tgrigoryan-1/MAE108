@@ -15,6 +15,7 @@ tempNov = SD_temperature(:,12);
 figure(1), histogram(tempNov,'BinWidth',1)
 xlabel('Temperature in November (F)')
 ylabel('Counts')
+title('Temperature in November vs Count')
 
 % Find sample mean
 samplemean = mean(tempNov)
