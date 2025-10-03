@@ -12,10 +12,10 @@ years = SD_temperature(:,1);
 tempNov = SD_temperature(:,12);
 
 % Create histogram figure with bin width of 1 degree
-figure(1), histogram(tempNov,'BinWidth',1)
+figure(1), histogram(tempNov,'BinWidth',1,'Normalization','probability')
 xlabel('Temperature in November (F)')
-ylabel('Counts')
-title('Temperature in November vs Count')
+ylabel('Probability')
+title('Temperature in November vs Probability')
 
 % Find sample mean
 samplemean = mean(tempNov)
